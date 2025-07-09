@@ -1,0 +1,19 @@
+Find a way to implement the use of "switch"
+Do another relevant test 
+
+
+
+
+
+  Don't use PID file as an option since we won't be having any PIDs in the real world scenario for process.
+Using ps aux | grep "proc_name"
+    can it be identified by a specific user (eg. the creator of the processes should be mohsen)
+     %CPU and %MEM usage
+Using pidof "name" will output the PID matching command line arguments.
+
+
+Use logging instead of prints.(tick)
+Kno more about htop
+Add the ability to display only one process state.(tick)
+
+# Don't use PID file as an option since we won't be having any PIDs in the real world scenario for process.
