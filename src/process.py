@@ -7,7 +7,7 @@ import os
 import logging
 
 #Other classes
-from cronjob import CronJob, CJ_next_run
+from cronjob import CronJob, CJ_next_run #To change
 
 #Requirements
 from dataclasses import dataclass
@@ -290,5 +290,5 @@ if __name__ == "__main__":
             process.switch()
             print(f"Process state: {process.state.__class__.__name__}")
 
-        print("++++++++++++++++++++++++++++++++++++")
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         sleep(5)
